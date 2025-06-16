@@ -1,0 +1,24 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+coverage
+.history
+reports
+.scannerwork
+
+# Folder contains a paylod and env variables
+# to test a lambda locally
+local-run
+.DS_Store
+
+# Terraform
+
+.Terraform
+.terraform
+.terraform.lock.hcl
+*terraform.tfstate*
